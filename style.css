@@ -1,0 +1,124 @@
+
+/*<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">*/
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap :400,500,700');
+
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family: 'EB Garamond', serif ;
+}
+.nav-brand img{
+  width: 10%;
+  height: 10%;
+}
+.navbar{
+  padding: .8rem;
+}
+.navbar-nav li{
+  padding-right: 20px;
+}
+.nav-link{
+  font-size: 1.1em;
+}
+
+.carousel-inner img{
+  width: 100%;
+  height: 100%;
+}
+.carousel-item img{
+  width: 100%;
+  height:200%;
+}
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+}
+.carousel-caption h1{
+  font-size: 500% ;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 10px #010101;
+}
+.carousel-caption h3{
+  font-size: 2rem ;
+  font-weight: 400;
+  text-shadow: 1px 1px 10px #010101;
+  padding: 1rem;
+}
+.padding{
+padding-bottom: 2 rem;
+
+}
+
+.welcome{
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 2 rem;
+}
+.welcome hr{
+  border-top:2px solid;
+  width: 95%;
+
+}
+.fa-code{
+  color: rgb(240, 161, 14);
+
+}
+.fa-bold{
+  color: rgba(49, 9, 122, 0.938);
+}
+.fa-css3{
+  color: blue;
+}
+.fa-code,.fa-bold,.fa-css3{
+  font-size: 3em;
+  margin: .05rem;
+}
+.fun{
+  width: 100%;
+  margin-bottom: 1rem;
+
+}
+.gif {
+  max-width: 100%;
+}
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+}
+
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+
